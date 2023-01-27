@@ -24,13 +24,19 @@ nav>a{
     height: 100px;
     width: 100px;  
     display: block;
+    color: blue;
 }
 
-div{   
+#subrayado{
+    text-decoration: none;
+    color:black;
+}
+#title{   
     width: 100%;    
     background-color: black;
     color: aliceblue;
     text-align: center;    
+    margin: 4px;
 }
 
 div>h2{
