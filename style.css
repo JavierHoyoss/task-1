@@ -1,30 +1,40 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;     
+    box-sizing: border-box;  
+    font-family: cursive;   
 }
 
-
 header{
-    background-image: url(./images/design1_image1.jpg); 
+    background-image: url(./images/design1_image1.jpg);
     width: 100%;   
     height: 400px;
     background-size: cover;
     text-align: start;
-    color: antiquewhite;
+    color: white;    
+    font-size: xx-large;
+}
 
+header>div{
+    position: relative;
+    top: 82%;
+    border-top: 5px solid white;
 }
 
 nav{
     height: 300px;
-    width: 300px;
+    width: 15%;    
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 5%;
 }
 
 nav>a{ 
-    height: 100px;
-    width: 100px;  
+    height: 98px;
+    width: 100%;  
     display: block;
     color: blue;
+    font-size: x-large;
 }
 
 #subrayado{
@@ -37,16 +47,45 @@ nav>a{
     color: aliceblue;
     text-align: center;    
     margin: 4px;
+    font-size: xx-large;
 }
+
 
 div>h2{
     display: inline;
 }
 
-div>img{
-    height: 60px;
-    width: 60px;
+
+.logo{
+    height: 120px;
+    width: 120px;
     display: inline;
     background-color: black;
-    
+    position: relative;
+    left: 80%;    
+   top: 60%;  
 }
+
+section{
+    height: 900px;
+    width: 80%;      
+    display: inline-block; 
+    margin-left: 2%;    
+    padding: 5%;
+    position: absolute;
+    margin-top: 5%;
+    font-size: x-large;
+}
+
+section>div{
+    height: 600px;
+    width: 90%;
+}
+section>div>img{
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+}
+
+
+
