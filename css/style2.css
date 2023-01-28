@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: cursive;   
+}
+
+header{
+    background-image: url(../images/design1_image1.jpg);
+    width: 100%;   
+    height: 400px;
+    background-size: cover;
+    text-align: start;
+    color: black;    
+    font-size: xx-large;
+}
+
+#title{   
+    width: 100%;    
+    background-color: white;
+    color: black;
+    text-align: center;    
+    margin: 4px;
+    font-size: x-large;
+    position: relative;
+    top: 76%;
+    border: 2px solid black;
+}
+
+header>h1{
+    background-color: white;
+}
+
+nav>a{ 
+    height: 98px;
+    width: 100%;  
+    display: inline;
+    background-color: blue;
+    color: white;
+    font-size: xx-large;
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin: 2px;
+    box-shadow: 5px 5px grey;
+    text-decoration: none;
+    position: relative;
+    left: 60%;
+    bottom: 330px;
+    
+}
+.verde{
+    background-color: green;
+}
+
+section, .section{
+    height: 900px;
+    width: 80%;      
+    display: inline-block; 
+    margin-left: 2%;    
+    padding: 5%;
+    position: relative;
+    left: 15%;
+       font-size: x-large;
+}
+
+section>div, .section>div{
+    height: 600px;
+    width: 90%;
+}
+section>div>img, .section>div>img{
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+    display: inline;
+    background-color: black;
+    position: relative;
+    left: 2%;    
+   top: 103%;  
+}
