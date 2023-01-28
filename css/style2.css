@@ -82,3 +82,7 @@ section>div>img, .section>div>img{
     left: 2%;    
    top: 103%;  
 }
+
+span{
+    display: none;
+}
