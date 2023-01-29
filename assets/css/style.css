@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: cursive;   
+}
+
+header{
+    background-image: url(../images/design1_image1.jpg);
+    width: 100%;   
+    height: 500px;
+    background-size: cover;
+    text-align: start;
+    color: white;    
+    font-size: xx-large;
+}
+
+
+nav{
+    height: 300px;
+    width: 15%;    
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+nav>a{ 
+    height: 98px;
+    width: 100%;  
+    display: block;
+    color: blue;
+    font-size: x-large;
+}
+
+#subrayado{
+    text-decoration: none;
+    color:black;
+}
+#title{   
+    width: 100%;    
+    background-color: black;
+    color: aliceblue;
+    text-align: center;    
+    margin: 4px;
+    font-size: xx-large;
+    position: relative;
+    top: 82%;
+    border-top: 5px solid white;
+}
+
+
+div>h2{
+    display: inline;
+}
+
+
+.logo{
+    height: 120px;
+    width: 120px;
+    display: inline;
+    background-color: black;
+    position: relative;
+    left: 80%;    
+   top: 60%;  
+}
+
+section, .section{
+    height: 900px;
+    width: 80%;      
+    display: inline-block; 
+    margin-left: 2%;    
+    padding: 5%;
+    position: absolute;
+    margin-top: 5%;
+    font-size: x-large;
+}
+
+section>div, .section>div{
+    height: 600px;
+    width: 90%;
+}
+section>div>img, .section>div>img{
+    max-width: 100%;
+    height: auto;
+    padding: 5%;
+}
+
+
+
