@@ -43,21 +43,24 @@ header>h1 {
 }
 
 nav {
+    display: flex;
+    justify-content: space-around;
     margin: 20px;
     position: sticky;
     top: 20px;
+    border-bottom: 3px solid #f8e12e;
+    border-top: 3px solid #f8e12e;
 }
 
-nav>a {
-    height: 55px;
-    width: 32%;
-    display: inline-block;
+nav>a {   
+    width: 20%;
+    height: auto;
     background-color: black;
     opacity: 0.8;
     color: white;
     font-size: xx-large;
     border: 5px solid black;
-    padding: 5px 10px;
+    padding: 10px 20px;
     margin: 2px;
     text-decoration: none;
     border-radius: 15px;
@@ -73,27 +76,46 @@ nav>a:hover {
     transition-duration: 0.3s;
 }
 
+main>div{
+    display: flex;  
+    flex-direction: column;
+   align-items: center;
+}
 section,
 .section {
-    height: 900px;
-    width: 80%;
-    display: inline-block;
-    margin-left: 2%;
-    padding: 5%;
-    position: relative;
-    left: 15%;
-    font-size: x-large;
-    background-color: none;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 50px;   
+    font-size: x-large; 
+    text-align: justify;   
+      
 }
-
-section>div,
-.section>div {
+section>div{       
+    background-color:#f8ed98;
+    height: auto;
+    width: 30%;
+    padding: 30px;
+    border-radius: 20px;   
+    
+}
+section>div>h3{  
+    color: black;      
+    text-decoration:underline;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+figure {    
     height: 600px;
-    width: 90%;
+    width: 50%;
 }
 
-section>div>img,
-.section>div>img {
+figure>img {
     max-width: 100%;
     height: auto;
     padding: 5%;
@@ -114,4 +136,5 @@ section>div>img,
 
 main {
     background-image: url(../images/pattern\ 2.jpg);
+    
 }
