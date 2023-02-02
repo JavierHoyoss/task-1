@@ -100,7 +100,7 @@ section>div, .section>div{
     padding: 30px;
     border-radius: 20px;  
     border: 3px solid #f8e12e;    
-    box-shadow: 2px 2px 5px #c64832; 
+    box-shadow: 2px 2px 5px rgb(146, 145, 145); 
     
 }
 section>div>h3{  
