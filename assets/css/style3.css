@@ -36,7 +36,7 @@ header>h1 {
     opacity: 0.8;
     text-align: center;
     margin: 4px;
-    font-size: x-large;
+    font-size: 1em;
     position: relative;
     top: 55%;
     border: 2px solid black;
@@ -79,7 +79,7 @@ nav>a:hover {
 main>div{
     display: flex;  
     flex-direction: column;
-   align-items: center;
+    align-items: center;
 }
 section,
 .section {
@@ -94,21 +94,28 @@ section,
     text-align: justify;   
       
 }
-section>div{       
-    background-color:#f8ed98;
+section>div, .section>div{       
     height: auto;
     width: 30%;
     padding: 30px;
-    border-radius: 20px;   
+    border-radius: 20px;  
+    border: 3px solid #f8e12e;    
+    box-shadow: 2px 2px 5px #c64832; 
     
 }
 section>div>h3{  
-    color: black;      
+    color: black;
+    display: flex;
+    flex-direction: column;      
     text-decoration:underline;
+    text-transform: uppercase;    
     text-align: center;
     font-size: 2em;
     margin-bottom: 20px;
     border-radius: 20px;
+}
+.texto{
+    padding: 10px;
 }
 figure {    
     height: 600px;
@@ -137,4 +144,43 @@ figure>img {
 main {
     background-image: url(../images/pattern\ 2.jpg);
     
+}
+.reglas{
+    font-size: 2em;
+    margin-top: 20px;
+}
+table{
+    width: 80%;
+    border: 3px solid #f8e12e;
+}
+caption{
+    font-size: 1.5em;
+    border: 3px solid #f8e12e;
+    border-bottom: 3px solid white;
+}
+table, th, td {    
+    border-collapse: collapse; 
+    padding: 20px;
+    text-align: center;   
+  }
+
+th{
+    font-size: 1.5em;
+    width: 25%; 
+    font-weight: bold;  
+
+}
+
+.final{
+    height: auto;
+    width: 60%;
+    padding: 30px;
+    border-radius: 20px;        
+    box-shadow: 2px 2px 5px grey; font-size: 2em; 
+    text-align: left;
+     
+}
+.final>h2{       
+    font-weight: bold; 
+    margin: 12px; 
 }
