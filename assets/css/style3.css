@@ -185,3 +185,7 @@ th{
     font-weight: bold; 
     margin: 12px; 
 }
+
+.lista>ol>li{
+    list-style-type: lower-latin;
+}
