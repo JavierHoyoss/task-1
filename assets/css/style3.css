@@ -176,7 +176,8 @@ th{
     width: 60%;
     padding: 30px;
     border-radius: 20px;        
-    box-shadow: 2px 2px 5px grey; font-size: 2em; 
+    box-shadow: 2px 2px 5px grey; font-size: 1.5em; 
+    
     text-align: left;
      
 }
