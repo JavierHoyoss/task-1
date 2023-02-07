@@ -82,7 +82,7 @@ main>div{
     align-items: center;
 }
 section,
-.section {
+.section, form {
     height: auto;
     width: 100%;
     display: flex;
@@ -190,3 +190,57 @@ th{
 .lista>ol>li{
     list-style-type: lower-latin;
 }
+
+
+form{
+	width:90%;
+	padding:16px;
+    border: white;
+	border-radius:10px;
+	margin:auto;
+	background-color:#f8e12e;
+    justify-content: flex-start;
+}
+
+form label{
+	display:inline-block;
+    border: white;
+}
+fieldset {
+    display: block;
+    margin: 15px;
+    padding: 15px;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-bottom-style: groove;
+    border-color: white;
+    border-radius: 7px;
+}
+
+form input{
+    margin: 6px;
+    border-radius: 3px; 
+    color: #525c66; 
+    font-size: 1em;
+    resize: none; 
+  }
+  input[type=checkbox], input[type=radio] {
+    transform: scale(1.5);
+  }
+
+  input[type=submit]{
+    width: 100%;
+    display: block;
+    padding: 15px 30px;
+    border: none;
+    background-color: #c64832;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+
+  .maps>h2{
+    padding: 20px;
+  }
