@@ -263,6 +263,10 @@ input[type=submit] {
 .maps>h2 {
     padding: 20px;
 }
+iframe{
+    width: 80%;
+    height: auto;
+}
 
 @media only screen and (max-width:764px) {
 
