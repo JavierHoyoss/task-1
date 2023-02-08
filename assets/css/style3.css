@@ -44,6 +44,7 @@ header>h1 {
 
 nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin: 20px;
     position: sticky;
@@ -52,8 +53,8 @@ nav {
     border-top: 3px solid #f8e12e;
 }
 
-nav>a {   
-    width: 20%;
+nav>a {
+    width: auto;
     height: auto;
     background-color: black;
     opacity: 0.8;
@@ -76,13 +77,15 @@ nav>a:hover {
     transition-duration: 0.3s;
 }
 
-main>div{
-    display: flex;  
+main>div {
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 section,
-.section, form {
+.section,
+form {
     height: auto;
     width: 100%;
     display: flex;
@@ -90,37 +93,42 @@ section,
     justify-content: space-around;
     padding: 10px;
     margin: 20px;
-    margin-top: 50px;   
-    font-size: x-large; 
-    text-align: justify;   
-      
+    margin-top: 50px;
+    font-size: x-large;
+    text-align: justify;
+
 }
-section>div, .section>div{       
+
+section>div,
+.section>div {
     height: auto;
     width: 30%;
     padding: 30px;
-    border-radius: 20px;  
-    border: 3px solid #f8e12e;    
-    box-shadow: 2px 2px 5px rgb(146, 145, 145); 
-    
+    border-radius: 20px;
+    border: 3px solid #f8e12e;
+    box-shadow: 2px 2px 5px rgb(146, 145, 145);
+
 }
-section>div>h3{  
+
+section>div>h3 {
     color: black;
     display: flex;
-    flex-direction: column;      
-    text-decoration:underline;
-    text-transform: uppercase;    
+    flex-direction: column;
+    text-decoration: underline;
+    text-transform: uppercase;
     text-align: center;
     font-size: 2em;
     margin-bottom: 20px;
     border-radius: 20px;
 }
-.texto{
+
+.texto {
     padding: 10px;
 }
-figure {    
+
+figure {
     height: 600px;
-    width: 50%;
+    width: auto;
 }
 
 figure>img {
@@ -136,7 +144,7 @@ figure>img {
     background-color: black;
     position: relative;
     left: 2%;
-    bottom: 33%;
+    bottom: 36%;
     opacity: 0.8;
     border-radius: 50%;
     padding: 5px;
@@ -144,68 +152,77 @@ figure>img {
 
 main {
     background-image: url(../images/pattern\ 2.jpg);
-    
+
 }
-.reglas{
+
+.reglas {
     font-size: 2em;
     margin-top: 20px;
 }
-table{
+
+table {
     width: 80%;
     border: 3px solid #f8e12e;
 }
-caption{
+
+caption {
     font-size: 1.5em;
     border: 3px solid #f8e12e;
     border-bottom: 3px solid white;
 }
-table, th, td {    
-    border-collapse: collapse; 
-    padding: 20px;
-    text-align: center;   
-  }
 
-th{
+table,
+th,
+td {
+    border-collapse: collapse;
+    padding: 20px;
+    text-align: center;
+}
+
+th {
     font-size: 1.5em;
-    width: 25%; 
-    font-weight: bold;  
+    width: 25%;
+    font-weight: bold;
 
 }
 
-.final{
+.final {
     height: auto;
     width: 60%;
     padding: 30px;
-    border-radius: 20px;        
-    box-shadow: 2px 2px 5px grey; font-size: 1.5em; 
-    
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px grey;
+    font-size: 1.5em;
+
     text-align: left;
-     
-}
-.final>h2{       
-    font-weight: bold; 
-    margin: 12px; 
+
 }
 
-.lista>ol>li{
+.final>h2 {
+    font-weight: bold;
+    margin: 12px;
+}
+
+.lista>ol>li {
     list-style-type: lower-latin;
 }
 
 
-form{
-	width:90%;
-	padding:16px;
+form {
+    width: 90%;
+    padding: 16px;
     border: white;
-	border-radius:10px;
-	margin:auto;
-	background-color:#f8e12e;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #f8e12e;
     justify-content: flex-start;
 }
 
-form label{
-	display:inline-block;
+form label {
+    display: inline-block;
     border: white;
 }
+
 fieldset {
     display: block;
     margin: 15px;
@@ -217,18 +234,20 @@ fieldset {
     border-radius: 7px;
 }
 
-form input{
+form input {
     margin: 6px;
-    border-radius: 3px; 
-    color: #525c66; 
+    border-radius: 3px;
+    color: #525c66;
     font-size: 1em;
-    resize: none; 
-  }
-  input[type=checkbox], input[type=radio] {
-    transform: scale(1.5);
-  }
+    resize: none;
+}
 
-  input[type=submit]{
+input[type=checkbox],
+input[type=radio] {
+    transform: scale(1.5);
+}
+
+input[type=submit] {
     width: 100%;
     display: block;
     padding: 15px 30px;
@@ -239,8 +258,93 @@ form input{
     cursor: pointer;
     font-size: 16px;
     margin-top: 30px;
-  }
+}
 
-  .maps>h2{
+.maps>h2 {
     padding: 20px;
-  }
+}
+
+@media only screen and (max-width:764px) {
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 70px;
+        position: static;
+        border-bottom: 3px solid #f8e12e;
+        border-top: 3px solid #f8e12e;
+    }
+
+    section,
+    .section {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 10px;
+        margin: 20px;
+        margin-top: 50px;
+        font-size: x-large;
+        text-align: justify;
+        flex-direction: column;
+    }
+
+    section>div,
+    .section>div {
+        margin-bottom: 10px;
+        height: auto;
+        width: 100%;
+        padding: 30px;
+        border-radius: 20px;
+        border: 3px solid #f8e12e;
+        box-shadow: 2px 2px 5px rgb(146 145 145);
+    }
+
+    .logo {
+        height: 125px;
+        width: 125px;
+        display: inline;
+        background-color: black;
+        position: relative;
+        left: 2%;
+        bottom: 55%;
+        opacity: 0.8;
+        border-radius: 50%;
+        padding: 5px;
+    }
+    
+
+}
+
+@media only screen and (max-width:448px) {
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 210px;
+        position: static;
+        border-bottom: 3px solid #f8e12e;
+        border-top: 3px solid #f8e12e;
+        flex-direction: column;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    section>div>h3 {
+        color: black;
+        display: flex;
+        flex-direction: column;
+        text-decoration: underline;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+   
+}
